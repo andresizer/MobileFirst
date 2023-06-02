@@ -1,0 +1,39 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1rem;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.contato__email {
+    padding: 1rem;
+    border: 1px solid var(--azul);
+    border-radius: 2rem;
+    width: 90%;
+    color: var(--azul)
+}
+
+.contato__email::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul);
+    background: url("../img/Carta.svg") no-repeat left;
+    background-position: 0.5rem;
+}
