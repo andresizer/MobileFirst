@@ -5,5 +5,12 @@ hr {
 .rodape {
     background-color: var(--branco);
     padding: 1rem;
-    
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: 500;
 }
