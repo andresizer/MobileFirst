@@ -53,7 +53,59 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.menu__botao,
 .container__botao {
     display: none;
+}
+
+.container__titulo {
+    display: none;
+}
+
+.menu__header {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo-negrito {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo-negrito {
+        font-weight: 700;
+    }
+
+    .menu__header {
+        display: flex;
+    }
+
+    .menu__header-item {
+        text-transform: uppercase;
+    }
+    .menu__header-link {
+        
+        text-decoration: none;
+        color: #000000;
+        padding: 0 2rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .menu__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+   
+
+
 }
