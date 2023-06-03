@@ -66,7 +66,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 600px) {
     .container__titulo,
     .container__titulo-negrito {
         font-family: 'Josefin Sans', sans-serif;
