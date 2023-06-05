@@ -21,3 +21,31 @@
     position: initial;
     margin: .5rem 0 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .swiper-pagination {
+        transform: scale(1.4);
+        padding: 1rem 0 2rem 0;
+    }
+
+    .swiper-slide img {
+        width: 60%;
+    }
+
+    .swiper {
+        width: 80%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+    display: block;
+    top: 60%;
+}
+
+}

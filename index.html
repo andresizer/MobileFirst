@@ -192,8 +192,10 @@
     </section>
     <!-- CONTATO -->
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__texto">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__descricao">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" class="contato__email" placeholder="Cadastre o seu email">
     </section>
 
@@ -226,7 +228,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
+            spaceBetween: 1,
             slidesPerView: 3,
             pagination: {
                 el: '.swiper-pagination',

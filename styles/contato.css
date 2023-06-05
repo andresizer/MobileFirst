@@ -4,7 +4,7 @@
 }
 
 .contato__titulo,
-.contato__texto {
+.contato__descricao {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -15,7 +15,7 @@
     font-weight: 500;
 }
 
-.contato__texto {
+.contato__descricao {
     font-weight: 300;
     margin: 1rem 0;
 }
@@ -37,3 +37,27 @@
     background: url("../img/Carta.svg") no-repeat left;
     background-position: 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contato__texto {
+        width: 30%;
+    }
+
+    .contato__titulo {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .contato__email {
+        /* flex-grow: 1; */
+        width:30%;
+        /* margin: auto; */
+    }
+}
+
