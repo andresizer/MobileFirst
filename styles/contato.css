@@ -6,12 +6,13 @@
 .contato__titulo,
 .contato__descricao {
     background: var(--azul-degrade);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .contato__titulo {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -55,9 +56,6 @@
     }
 
     .contato__email {
-        /* flex-grow: 1; */
         width:30%;
-        /* margin: auto; */
     }
 }
-
