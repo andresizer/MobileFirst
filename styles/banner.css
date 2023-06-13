@@ -105,7 +105,14 @@
         padding: 1.5rem;
     }
     .topicos__item {
-        padding: 1rem 0.5rem;
+        padding: 0.5rem;
+        
+    }
+
+    .topicos__lista {
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 1rem;
     }
 
 
